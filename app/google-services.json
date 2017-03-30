@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "695585133630",
+    "firebase_url": "https://bmietapp.firebaseio.com",
+    "project_id": "bmietapp",
+    "storage_bucket": "bmietapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695585133630:android:183ac5715308b4fd",
+        "android_client_info": {
+          "package_name": "com.BmCollege.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695585133630-kj8nuhri27ivqj728f8lm7k0lm5i9shm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4z2f-PPxp9N4sTmtmCxkMY95cai0MjJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

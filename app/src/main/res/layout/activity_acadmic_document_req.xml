@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/transparent" />
+
+    <ScrollView
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/activity_acadmic_document_req"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            tools:context="com.BmCollege.app.Academic.Acadmic_document_req">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/csedept" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="LIST OF DOCUMENTS TO BE BROUGHT AT THE TIME OF ADMISSION :-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="(a) Registration slip (Original + One Photocopy)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(b) Admit Card of CET-2016 (Original + One Photocopy)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(c) Allotment letter (Original + Two Photocopies)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(d) Part Academic Fee Receipt (of Rs. 40, 000) (Original + Two Photocopies)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(e) Candidates shall bring all mark sheets, Reserved Category certificate in original and certificate from 10 (or equivalent) onwards for verification. Two sets of photocopies of certificates, attested by gazetted office or self attested is to be submitted and shall be retained by the University and The Institute. In the absence of mandatory documents of proof of eligibility for admission in programme, the candidature shall be cancelled." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(f) In case of students who have passed the qualifying examination through distance/open education system of any recognized University/ board/ institution, the necessary documentary evidence related to location of his/her study centre i.e. study centre proof, certificate from the University imparting open/distance education certifying the location of the study centre." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(g) Conduct and Character Certificate in original from the Head of the institution from where the Candidate has passed his qualifying exam or from Gazetted Officer (Original), not more than 6 (six) months old)." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(h) In case, the result of qualifying examination is awaited, the candidates need to submit the undertaking. (Form available at the Institute)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(i) Score Card of CET 2016" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(j) Passport size photographs (4)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(k) Migration Certificate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(l) Medical Certificate of fitness" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(m) Gap year affidavit (if any)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="(n) Proof of belonging to Jain Religion" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

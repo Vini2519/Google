@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.BmCollege.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/slider"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme.">
+        <activity
+            android:name="com.BmCollege.app.Splash_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.BmCollege.app.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.BmCollege.app.SignIn.GoogleSignInActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.BmCollege.app.Navigation_Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.BmCollege.app.Intro_Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.BmCollege.app.SignIn.Login_BMIET"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.BmCollege.app.SignIn.Register_BMIET"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.BmCollege.app.Academic.Academics"
+            android:label="Academics"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Extra_curricular.Extra_Curricular"
+            android:label="Extra_Curricular"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Department.Departments"
+            android:label="Departments"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Placement.Placements"
+            android:label="Placements"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Contact_Us"
+            android:label="Contact_Us"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_Us"
+            android:label="About_Us"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Gallery.Gallery"
+            android:label="Gallery"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_mission_vision"
+            android:label="Mission and Vision"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_director_profile"
+            android:label="Director&apos;s Profile"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_princ_profile"
+            android:label="Principle Profile"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_boards_of_govern"
+            android:label="Board of Governers"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_facilities"
+            android:label="Facilities"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_bus_route"
+            android:label="Bus Route"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.About.About_campus"
+            android:label="Campus"
+            android:parentActivityName="com.BmCollege.app.About.About_Us">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.About.About_Us" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Academic.Academics_course"
+            android:label="Courses"
+            android:parentActivityName="com.BmCollege.app.Academic.Academics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Academic.Academics" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Academic.Academics_library"
+            android:label="Library"
+            android:parentActivityName="com.BmCollege.app.Academic.Academics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Academic.Academics" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Department.Departments_cse"
+            android:label="Department CSE"
+            android:parentActivityName="com.BmCollege.app.Department.Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Department.Departments" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Department.Departments_civil"
+            android:label="Department Civil"
+            android:parentActivityName="com.BmCollege.app.Department.Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Department.Departments" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Department.Departments_ece"
+            android:label="Department ECE "
+            android:parentActivityName="com.BmCollege.app.Department.Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Department.Departments" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Department.Departments_mech"
+            android:label="Department Mechanical"
+            android:parentActivityName="com.BmCollege.app.Department.Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Department.Departments" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Department.Departments_mba"
+            android:label="Department MBA"
+            android:parentActivityName="com.BmCollege.app.Department.Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Department.Departments" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Extra_curricular.Extra_cultural"
+            android:label="Cultural Activities and Technical fest"
+            android:parentActivityName="com.BmCollege.app.Extra_curricular.Extra_Curricular">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Extra_curricular.Extra_Curricular" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Extra_curricular.Extra_industrial"
+            android:label="Industrial Visits and Tours"
+            android:parentActivityName="com.BmCollege.app.Extra_curricular.Extra_Curricular">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Extra_curricular.Extra_Curricular" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Extra_curricular.Extra_sports"
+            android:label="Sports and Activities"
+            android:parentActivityName="com.BmCollege.app.Extra_curricular.Extra_Curricular">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Extra_curricular.Extra_Curricular" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Placement.Placement_detail"
+            android:label="Contact Detail for T and P"
+            android:parentActivityName="com.BmCollege.app.Placement.Placements">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Placement.Placements" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Placement.Placements_recruiters"
+            android:label="Our Recruiters"
+            android:parentActivityName="com.BmCollege.app.Placement.Placements">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Placement.Placements" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Placement.Placement_campus_facilities"
+            android:label="Campus Facilities"
+            android:parentActivityName="com.BmCollege.app.Placement.Placements">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Placement.Placements" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Gallery.Gallery_full_image"
+            android:label="Image"
+            android:parentActivityName="com.BmCollege.app.Gallery.Gallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Gallery.Gallery" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Attendence"
+            android:label="Attendance"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+         <activity
+            android:name="com.BmCollege.app.Queries.Query"
+            android:label="Query"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Academic.Acadmic_document_req"
+            android:label="Documents Required"
+            android:parentActivityName="com.BmCollege.app.Academic.Academics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Academic.Academics" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Academic.Academics_eligibility"
+            android:label="Eligibility Conditions"
+            android:parentActivityName="com.BmCollege.app.Academic.Academics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Academic.Academics" />
+        </activity>
+        <activity
+            android:name="com.BmCollege.app.Academic.Academics_Fees"
+            android:label="Fees Structure"
+            android:parentActivityName="com.BmCollege.app.Academic.Academics">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Academic.Academics" />
+        </activity>
+        <activity android:name="com.BmCollege.app.Syllabus.Syllabus"
+            android:label="Syllabus"
+            android:parentActivityName="com.BmCollege.app.Navigation_Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.BmCollege.app.Navigation_Activity"/>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/transparent" />
+
+    <LinearLayout
+        android:id="@+id/activity_about_campus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.BmCollege.app.About.About_campus">
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@drawable/csedept"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="BMIET is located in Sonepat ( Delhi NCR ) , behind Fazilpur power sub-station, in picturesque surroundings at a distance of about 16 km from Delhi-Singhu Border, Sonepat (in the National Capital Region). Sonepat means in sanskrit language 'suvarna prastha' or golden place. One popular tradition avers that this is one of the five prasthas or patas viz. Indraprastha, Sonepat, Panipat, Baghpat, Talpat. Mentioned in MAHABHARTA FOR WHICH Yuddhishthira DEMANDED from Duryodhana. Another tradition ascribes its foundation to raja Soni (13th descendant from Arjuna, a brother of Yuddhishthira). The campus has been developed in an area of 11.15 acre in the scenic surroundings."
+                    tools:ignore="HardcodedText"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bm"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="It has fully developed and well furnished computer labs, workshops, laboratories, lecture and tutorial rooms, library, separate hostels for boys, girls, teachers residences, captive power generators, administrative block, playgrounds, bank outlet within college, medical room, and STD/ISD/PCO facilities etc. All efforts are being made to keep the students in good health and comforting atmosphere congenial for studies, in a rural set up away from the din and bustle of city life."
+                    tools:ignore="HardcodedText"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/map"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

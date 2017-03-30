@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Academics"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Academics"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Attendence"
+            android:icon="@drawable/ic_content_copy_black_24dp"
+            android:title="Attendance"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Gallery"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="Gallery"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Syllabus"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Syllabus and Assignments"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Extra_Curricular"
+            android:icon="@drawable/ic_extension_black_24dp"
+            android:title="Extra_Curricular"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Departments"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="Departments"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/Placements"
+            android:icon="@drawable/ic_thumbs_up_down_black_24dp"
+            android:title="Placements"
+            tools:ignore="HardcodedText" />
+
+    </group>
+
+    <item
+        android:title="Communication"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/Contact_Us"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/About_Us"
+                android:icon="@drawable/ic_location_city_black_24dp"
+                android:title="About_Us" />
+        </menu>
+    </item>
+
+</menu>

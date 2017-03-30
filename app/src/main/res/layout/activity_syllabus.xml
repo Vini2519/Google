@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/transparent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/activity_syllabus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.BmCollege.app.Syllabus.Syllabus">
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/csedept"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/first"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Btech 1st year"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+
+                    <Button
+                        android:id="@+id/ece"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="ECE(DCRUST)"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/bca"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="BCA"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/eee"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="EEE(DCRUST)"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/mba"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="MBA"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/civil"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Civil(DCRUST)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/bba"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="BBA"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/mech"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mech(Dcrust)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/cse"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="CSE(3rd Sem)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/cse4"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="CSE(4th Sem)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/cse5"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="CSE(5th Sem)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/cse6"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="CSE(6th Sem)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/cse7"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="CSE(7th Sem)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/cse8"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="CSE(8th Sem)"
+                        android:textAllCaps="false"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="------------Assignments------------"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

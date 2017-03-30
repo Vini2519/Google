@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/transparent"
+        tools:ignore="ContentDescription" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/activity_academics__fees"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            tools:context="com.BmCollege.app.Academic.Academics_Fees">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/csedept" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fees"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="NOTE :-"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1.Fee shall be paid in cash or by Demand Draft issue in favour of ‘BmCollege Sonepat’ payable at Sonepat."
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2. Refundable Security for Hostel (Rs. 14000/-), Transport (Rs. 5000/-) will be in addition."
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3. **The hostel charges will include lodging, boarding, Generator back up, water and electricity, reading room, computer work station after institute hours, sports, necessary furniture and furnishings. The residents will be provided transport to the local market once in a week and also a free trip (free Institute transport and lodging) to a hill station every year. These charges also include cost of geyser, room coolers, Internet and telephone facilities. Additional Rs. 5000/- annually will be charged from single room allottee. Laundry and Canteen etc shall be on actual basis and optional."
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

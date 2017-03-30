@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/transparent" />
+
+    <LinearLayout
+        android:id="@+id/activity_about__us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.BmCollege.app.About.About_Us">
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/csedept"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="B.M. Institute of Engineering and Technology"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <include layout="@layout/about_us2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="The institute was established in 1999 by Bhagwan Mahaveer Education Trust with the objective of creating a center of excellence in the field of technical education at Sonepat and provide conductive environment for studies based on the teachings of Lord Mahaveer. "
+                    android:textAlignment="inherit"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="The institute is committed to :-"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Non-violence- not to cause harm to any living beings. Truthfulness- to speak the harmless truth only. Non Stealing- not to take anything not properly given.It is approved by AICTE to conduct four year degree courses in Computer Science and Engineering, Information Technology, Electronics and Communication Engineering. Approval to start degree course in  Electrical and  Electronics Engineering was obtained in the year 2007 whereas two years P.G. courses in M.B.A. commenced from the session 2008-09.The Institute has started BBA/BCA Courses w.e.f. academic session 2011-12.The Institute has started B.Tech in Civil Engineering and Mechanical Engineering and M-Tech. in Computer Science and Engg. w.e.f. academic session 2013-14.The institute is Affiliated to IP University (GGSIPU), Delhi w.e.f. session 2016." />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/aboutus1"
+                    tools:ignore="ContentDescription" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/transparent" />
+
+    <LinearLayout
+        android:id="@+id/activity_extra_sports"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.BmCollege.app.Extra_curricular.Extra_sports">
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@drawable/csedept"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Sports activities are given utmost importance. Our students regularly participate in all sports competitions and bring laurels to the institution and themselves. Our sports complex is a marvel in itself boasting of Cricket grounds, Volley ball courts, Basket ball courts, Throw ball courts and athletic tracks. Another added facility is indoor sports complex fully equipped with sports kits. The atmosphere and surroundings of the institution are conducive for developing sports personalities and sports activities."
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:src="@drawable/sport_one"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apart from Annual Sports Meet our students also participate in various Technical and Cultural Festivals of other institutes and have won prizes in the university youth festivals and other competitions. Fresher’s and Farewell Parties are organized every year.The famous Jal Band and The Euphoria Band were the Star attraction in 2011 and 2012 respectively."
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Donation Camp
+Our staff and students never lack behind in meeting their social responsibilities. Every year the institute organizes a blood donation camp. More than 250 students donate blood every year in these camps."
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
